@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TtGoXBaRGyw=",
+  "success": true,
+  "projectFilePath": "/Users/jonhreidar/code/crm/api/crm.csproj",
+  "expectedPackageFiles": [
+    "/Users/jonhreidar/.nuget/packages/microsoft.aspnetcore.openapi/10.0.0-preview.1.25120.3/microsoft.aspnetcore.openapi.10.0.0-preview.1.25120.3.nupkg.sha512",
+    "/Users/jonhreidar/.nuget/packages/microsoft.openapi/2.0.0-preview5/microsoft.openapi.2.0.0-preview5.nupkg.sha512"
+  ],
+  "logs": []
+}
