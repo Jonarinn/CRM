@@ -1,12 +1,42 @@
 /* Used to create global variables
 
 This file should be used to declare common variables such as accent colors
-and maybe some default margin lengths and so on.
+and maybe some default margin lengths and so on. Other uses for this file
+is to declare global attributes.
 
 Most common classes should be declared in the app-layout.css file which wraps
 all the other files.
 */
 
 :root {
-    --accent-color: #03517d;
+    --accent-color: #90d5ff;
+
+    --bg-color: #f6feff;
+
+    --large-padding: 6rem;
+    --medium-padding: 3rem;
+    --small-padding: 1rem;
+
+    --button-x-padding: 1.5rem;
+    --button-y-padding: 1rem;
+    --button-border-radius: 0.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./home.css";
 
 /** The home page
  *
@@ -28,8 +29,8 @@ export default Home;
  */
 const LandingPageHeadline = () => {
     return (
-        <section>
-            <div>
+        <section className="head">
+            <div className="head-text">
                 <h1>Create Relations by Creating Stories</h1>
                 <Link to={"/dashboard"}>
                     <button>Go to Dashboard</button>
@@ -45,6 +46,7 @@ const LandingPageHeadline = () => {
  * to. As well as how we implement AI into it.
  *
  */
+
 const RealtimeChatbotSection = () => {
     return (
         <section>

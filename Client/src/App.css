@@ -1,42 +1,20 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* This class should be implemented by most regular buttons */
+.p-button {
+    padding: var(--button-x-padding) var(--button-y-padding);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Different button styles */
+.cta-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: var(--button-y-padding) var(--button-x-padding);
+    border-radius: var(--button-border-radius);
+    cursor: pointer;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.secondary-button {
+    padding: var(--button-y-padding) var(--button-x-padding);
+    cursor: pointer;
+    border: 1px solid var(--accent-color);
+    border-radius: var(--button-border-radius);
 }

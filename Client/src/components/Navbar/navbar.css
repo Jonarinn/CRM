@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--small-padding) var(--medium-padding);
+
+    & > div {
+        min-height: 30px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.navigation-list {
+    display: flex;
+    gap: var(--small-padding);
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    gap: var(--small-padding);
+    text-decoration: none;
+}
+
+.nav-logo {
+    height: 50px;
+}
+
+.nav-text-logo {
+    font-size: 2rem;
+    font-weight: 300;
+    color: black;
+}
